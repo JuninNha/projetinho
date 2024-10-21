@@ -72,5 +72,5 @@ footer{
 }
 
 .cartao:hover .conteudo-cartao{
-    transform: rotateY('angle');
+    transform: rotateY(180deg);
 }
