@@ -56,5 +56,13 @@ footer{
     margin-top: 5rem;
     padding: 2rem;
     font-size: 1.4vw;
-    margin-bottom: 2rem;
+
+}
+
+.pergunta-cartao{
+    font-weight: 500;
+}
+
+.resposta-cartao{
+    font-weight: 700;
 }
