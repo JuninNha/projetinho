@@ -52,6 +52,7 @@ footer{
     position: absolute;
     text-align: left;
     font-size: 1.2vw;
+    backface-visibility: hidden;
 }
 
 .conteudo-cartao p{
@@ -69,8 +70,17 @@ footer{
 .resposta-cartao{
     font-weight: 700;
     color: var(--destaque);
+    background-color: var(--cor-verso);
+    border: 2px solid var(--destaque);
+    transform: rotateY(180deg);
 }
 
 .cartao:hover .conteudo-cartao{
     transform: rotateY(180deg);
+}
+.pergunta-cartao, .resposta-cartao{
+    backface-visibility: hidden;
+    position: absolute;
+    height: 100%;
+    width: 100%;
 }
