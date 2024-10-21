@@ -1,5 +1,5 @@
 :root{
-    --fundo:#1d3a05;
+    --fundo:#000000;
     --cor-frente: #020c92;
     --cor-verso: #000000;
     --destaque: #ffc400;
@@ -75,7 +75,7 @@ footer{
     transform: rotateY(180deg);
 }
 
-.cartao:hover .conteudo-cartao{
+.cartao.active .conteudo-cartao{
     transform: rotateY(180deg);
 }
 .pergunta-cartao, .resposta-cartao{
