@@ -47,3 +47,8 @@ footer{
     transform: scale(1.03);
 
 }
+.resposta-cartao{
+    padding: 40px;
+    background-color: #000000;
+    display: none;
+}
